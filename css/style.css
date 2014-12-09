@@ -1,0 +1,11 @@
+html, body{
+  margin:0;
+	background-color: black;
+}
+
+#p5-container{
+  width:1024px;
+  margin:auto;
+  margin-top:60px;
+  cursor: none;
+}
