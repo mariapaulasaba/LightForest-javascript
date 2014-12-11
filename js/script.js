@@ -20,6 +20,7 @@ rabbitSound.volume = 0.2;
 
 var counter = 0;
 
+
 function setup() {
 	  loading = true;
       bgImg = loadImage('img/cenario1.jpg')
@@ -50,7 +51,6 @@ function setup() {
 	  rabbit1 = new Rabbit(random(100, 800), 600, 1);
 	  rabbit2 = new Rabbit(random(100, 800), 675, 2);
 
-	
   }
   
 
@@ -123,4 +123,15 @@ var load = function(){
 
 }
 
+$('#p5-container').click(function(e){
+		$('#credits').css("display", "none");	
+});
+
+//$('#credits').click(function(e){
+//		$('#credits').css("display", "none");	
+//});
+
+$('#about').click(function(e){	
+	$('#credits').css("display", "block");
+ });
 
